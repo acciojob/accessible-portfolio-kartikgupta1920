@@ -8,9 +8,54 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	   <!-- Heading with ARIA role -->
+    <header>
+        <h1 role="heading" aria-level="1">Kartik Gupta's Portfolio</h1>
+    </header>
+
+    <!-- Navigation bar with ARIA role -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section with image and description -->
+    <main>
+        <section id="about">
+            <h2 role="heading" aria-level="2">About Me</h2>
+            <img role="img" src="profile.jpg" alt="Kartik Gupta smiling" />
+            <p>
+                Hi, I'm Kartik Gupta, a passionate Full Stack Developer specializing in the MERN stack. 
+                I enjoy building scalable web applications and solving complex problems with code.
+            </p>
+        </section>
+
+        <!-- List of items -->
+        <section id="projects">
+            <h2 role="heading" aria-level="2">Projects</h2>
+            <ul role="list">
+                <li role="listitem">Expense Tracker - A budget management tool.</li>
+                <li role="listitem">QTify - A music streaming app.</li>
+                <li role="listitem">QTrip - A travel booking platform.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer id="contact">
+        <h2 role="heading" aria-level="2">Contact</h2>
+        <p>Email: 19kartikgupta@gmail.com</p>
+    </footer>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
 
 </html>
+
+
+ 
